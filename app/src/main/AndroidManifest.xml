@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hrithik.btp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/food_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="${usesCleartextTraffic}"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.nasi.kandar.fairos.Activity.PranavActivity">
+
+        </activity>
+        <activity android:name="com.nasi.kandar.fairos.Activity.OrderFoodCommentActivity" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.UserFoodOrders" />
+        <activity
+            android:name="com.nasi.kandar.fairos.Helper.FoodMenuNavigationDrawerActivity"
+            android:label="@string/title_activity_food_menu_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.PaymentOrderStatusActivity" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.PaymentActivity" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.PaymentMethodActivity" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.PayNow" />
+
+        <activity android:name="com.nasi.kandar.fairos.Activity.FoodCartActivity" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nasi.kandar.fairos.Activity.SetupActivity" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.RegisterActivity" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.LoginActivity" />
+        <activity
+            android:name="com.nasi.kandar.fairos.Activity.FoodMenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Notitletheme" />
+        <activity
+            android:name="com.nasi.kandar.fairos.Activity.PhoneVerificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Notitletheme" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.MainActivity" />
+        <activity
+            android:name="com.nasi.kandar.fairos.Activity.OTPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Notitletheme" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.QRScanActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name="com.nasi.kandar.fairos.Activity.MoreActivity" />
+    </application>
+
+</manifest>

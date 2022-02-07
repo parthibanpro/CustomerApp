@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "102884024335",
+    "project_id": "nasi-kandar-a3aa5",
+    "storage_bucket": "nasi-kandar-a3aa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102884024335:android:9f32949399cd78f551037a",
+        "android_client_info": {
+          "package_name": "com.example.btpmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102884024335-n0kivhiddcammbg98q7g28s483us58hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANI7R-X3FM-J60de20bP-Yd8iyTl0Mo0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102884024335-n0kivhiddcammbg98q7g28s483us58hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102884024335:android:395253c17827a3f451037a",
+        "android_client_info": {
+          "package_name": "com.nasi.kandar.fairos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102884024335-n0kivhiddcammbg98q7g28s483us58hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANI7R-X3FM-J60de20bP-Yd8iyTl0Mo0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102884024335-n0kivhiddcammbg98q7g28s483us58hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
